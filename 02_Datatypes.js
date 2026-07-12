@@ -41,7 +41,7 @@ let myObj = {
     age  : 22,
     college_name : "AKGEC",
     companyName : "Google",
-    "working-hours": 7
+    "working-hours" : 7
 };
 
 console.log(myObj["college_name"]); //[]format
