@@ -23,6 +23,20 @@ console.log(hero);
 const nums = [1,2,3,[4,5,[6,7,8,[9,10]]]];
 
 console.log(nums.flat(Infinity));
+console.log(Array.isArray("Saksham"));
+console.log(Array.from("Saksham"));
+//this method always return an empty array if not clearly define dwhat to do like:
+// 
+// Array.from({name : "Saksham"});
+// here it can't understood that what to make arrya of like from key or from value
+
+const score1 = 126;
+const score2 = 156;
+const score3 = 176;
+
+console.log(Array.of(score1,score2,score3));
+
+
 
 
 
